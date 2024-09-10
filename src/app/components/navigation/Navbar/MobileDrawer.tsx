@@ -22,8 +22,11 @@ export function MobileDrawer({
         <FontAwesomeIcon className="text-5xl" icon={faXmark} />
       </button>
       <ul className="flex flex-col justify-center items-center space-y-4">
-        {links.map((l) => (
-          <li className="text-3xl hover:text-blue-900 hover:font-semibold">
+        {links.map((l, i) => (
+          <li
+            className="text-3xl hover:text-blue-900 hover:font-semibold"
+            key={i}
+          >
             <Link href={l.path}>{l.text}</Link>
           </li>
         ))}

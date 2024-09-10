@@ -27,3 +27,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.carousel-image-hidden {
+  opacity: 0;
+}
+
+.carousel-text-hidden {
+  opacity: 0;
+}

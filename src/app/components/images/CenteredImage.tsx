@@ -9,8 +9,8 @@ export function CenteredImage({
 }: {
   src: string;
   alt: string;
-  width: number;
-  height: number;
+  width?: number;
+  height?: number;
   priority: boolean;
 }) {
   return (
